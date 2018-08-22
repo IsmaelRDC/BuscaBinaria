@@ -14,7 +14,7 @@ public class Buscabinaria {
     int minimo = vetor[0];
     int maximo = vetor.length;
     int media = (minimo+maximo)/2;
-        System.out.println("Digite o valor do vetor:");
+    System.out.println("Digite o valor do vetor:");
     int valor = tcl.nextInt();
         if (valor < media) {
             for (int i = 0; i <vetor.length; i++) {
